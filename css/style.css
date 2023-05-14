@@ -48,8 +48,6 @@
     z-index: 1000;
     box-shadow: var(--box-shadow);
     font-size: 20px;
-    text-transform: capitalize;
-    cursor: pointer;
  }
 
  .btn,
@@ -128,4 +126,40 @@
 
 .form-container form p a:hover{
     text-decoration: underline;
+}
+
+/* INDEX.PHP */
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 70px;
+}
+
+.container .user-profile{
+    padding: 20px;
+    text-align: center;
+    border: var(--border);
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.container .user-profile p{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.container .user-profile p span{
+    color: var(--red);
+}
+
+.container .user-profile .flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
 }
